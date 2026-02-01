@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ta">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanmukanathar Astrology Research Centre</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;700&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-area">
+                <div class="logo-icon">🕉️</div> <!-- Fallback icon if image not available -->
+                <div class="logo-text">
+                    <h1 class="logo-title" data-en="Sanmukanathar Astrology" data-ta="சண்முகநாதர் ஜோதிட மையம்">
+                        Sanmukanathar Astrology Research Centre</h1>
+                    <span class="logo-subtitle" data-en="Research Centre" data-ta="ஆராய்ச்சி மையம்">Research
+                        Centre</span>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="contact-header">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>9962737319</span>
+                </div>
+                <!-- Language Toggle -->
+                <button id="lang-toggle" class="lang-btn">தமிழ் / English</button>
+
+                <!-- Hamburger Menu Toggle -->
+                <button class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" data-en="Home" data-ta="முகப்பு">Home</a></li>
+                        <li><a href="#services" data-en="Services" data-ta="சேவைகள்">Services</a></li>
+                        <li><a href="#contact" data-en="Contact" data-ta="தொடர்புக்கு">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main id="home" class="hero-section">
+        <div class="container hero-container">
+            <!-- Left Side: Content -->
+            <div class="hero-content">
+                <!-- God Photo Moved to Background -->
+                <h2 class="hero-heading" data-en="Discover Your Cosmic Path" data-ta="உங்கள் ஜாதக பலனை அறியுங்கள்">
+                    Discover Your Cosmic Path</h2>
+                <p class="hero-desc" data-en="Professional and reliable astrology services with ancient wisdom."
+                    data-ta="துல்லியமான மற்றும் நம்பிக்கையான ஜோதிட சேவைகள்.">Professional and reliable astrology
+                    services with ancient wisdom.</p>
+                <a href="tel:9962737319" class="btn btn-primary pulse-anim" data-en="Call Now" data-ta="அழைக்க">Call
+                    Now</a>
+            </div>
+
+            <!-- Right Side: Slider -->
+            <div class="hero-slider">
+                <div class="slider-wrapper" id="service-slider">
+                    <!-- Slider items will be injected by JS or hardcoded here -->
+                    <div class="slide active">
+                        <div class="slide-content">
+                            <div class="slide-icon">📜</div>
+                            <h3 data-en="Birth Chart Analysis" data-ta="ஜாதகம் பார்த்தல்">Birth Chart Analysis</h3>
+                            <ul class="slide-points">
+                                <li data-en="Complete Life Predictions" data-ta="முழு வாழ்க்கை கணிப்புகள்">Complete Life
+                                    Predictions</li>
+                                <li data-en="Rasi & Nakshatra Details" data-ta="ராசி மற்றும் நட்சத்திர விவரங்கள்">Rasi &
+                                    Nakshatra Details</li>
+                                <li data-en="Dasa Bukthi Analysis" data-ta="தசா புத்தி ஆய்வு">Dasa Bukthi Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <div class="slide-icon">❤️</div>
+                            <h3 data-en="Marriage Compatibility" data-ta="திருமண பொருத்தம்">Marriage Compatibility</h3>
+                            <ul class="slide-points">
+                                <li data-en="10 Porutham Check" data-ta="10 பொருத்தங்கள் சரிபார்ப்பு">10 Porutham Check
+                                </li>
+                                <li data-en="Dosha Analysis" data-ta="தோஷ ஆய்வு">Dosha Analysis</li>
+                                <li data-en="Happy Married Life Tips" data-ta="இனிய இல்லற குறிப்புகள்">Happy Married
+                                    Life Tips</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <div class="slide-icon">💼</div>
+                            <h3 data-en="Career & Finance" data-ta="தொழில் மற்றும் நிதி">Career & Finance</h3>
+                            <ul class="slide-points">
+                                <li data-en="Job Opportunities" data-ta="வேலை வாய்ப்புகள்">Job Opportunities</li>
+                                <li data-en="Business Growth" data-ta="தொழில் வளர்ச்சி">Business Growth</li>
+                                <li data-en="Financial Stability" data-ta="பொருளாதார நிலை">Financial Stability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title reveal" data-en="Our Services" data-ta="எங்கள் சேவைகள்">Our Services</h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal reveal-delay-1">
+                    <div class="icon">📜</div>
+                    <h3 data-en="Birth Chart Analysis" data-ta="ஜாதகம் பார்த்தல்">Birth Chart Analysis</h3>
+                    <ul class="service-details">
+                        <li data-en="Complete Life Predictions" data-ta="முழு வாழ்க்கை கணிப்புகள்">Complete Life
+                            Predictions</li>
+                        <li data-en="Rasi & Nakshatra Details" data-ta="ராசி மற்றும் நட்சத்திர விவரங்கள்">Rasi &
+                            Nakshatra Details</li>
+                        <li data-en="Dasa Bukthi Analysis" data-ta="தசா புத்தி ஆய்வு">Dasa Bukthi Analysis</li>
+                    </ul>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="icon">❤️</div>
+                    <h3 data-en="Marriage Compatibility" data-ta="திருமண பொருத்தம்">Marriage Compatibility</h3>
+                    <ul class="service-details">
+                        <li data-en="10 Porutham Check" data-ta="10 பொருத்தங்கள் சரிபார்ப்பு">10 Porutham Check</li>
+                        <li data-en="Dosha Analysis" data-ta="தோஷ ஆய்வு">Dosha Analysis</li>
+                        <li data-en="Happy Married Life Tips" data-ta="இனிய இல்லற குறிப்புகள்">Happy Married Life Tips
+                        </li>
+                    </ul>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card reveal reveal-delay-3">
+                    <div class="icon">💼</div>
+                    <h3 data-en="Career & Finance" data-ta="தொழில் மற்றும் நிதி">Career & Finance</h3>
+                    <ul class="service-details">
+                        <li data-en="Job Opportunities" data-ta="வேலை வாய்ப்புகள்">Job Opportunities</li>
+                        <li data-en="Business Growth" data-ta="தொழில் வளர்ச்சி">Business Growth</li>
+                        <li data-en="Financial Stability" data-ta="பொருளாதார நிலை">Financial Stability</li>
+                    </ul>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card reveal reveal-delay-3">
+                    <div class="icon">✍️</div>
+                    <h3 data-en="Jathagam Note Written" data-ta="ஜாதகம் எழுதி தரப்படும்">Jathagam Note Written</h3>
+                    <ul class="service-details">
+                        <li data-en="Handwritten Horoscope" data-ta="கையெழுத்து ஜாதகம்">Handwritten Horoscope</li>
+                        <li data-en="Detailed Calculations" data-ta="துல்லியமான கணக்கீடுகள்">Detailed Calculations</li>
+                        <li data-en="Lifetime Reference" data-ta="வாழ்நாள் குறிப்பேடு">Lifetime Reference</li>
+                    </ul>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card reveal reveal-delay-1">
+                    <div class="icon">🔢</div>
+                    <h3 data-en="Numerology" data-ta="எண் கணிதம்">Numerology</h3>
+                    <ul class="service-details">
+                        <li data-en="Lucky Name Correction" data-ta="அதிர்ஷ்ட பெயர் மாற்றம்">Lucky Name Correction</li>
+                        <li data-en="Lucky Numbers & Dates" data-ta="அதிர்ஷ்ட எண்கள்">Lucky Numbers & Dates</li>
+                        <li data-en="Vehicle Number Selection" data-ta="வாகன எண் தேர்வு">Vehicle Number Selection</li>
+                    </ul>
+                </div>
+                <!-- Service 6 -->
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="icon">🗣️</div>
+                    <h3 data-en="Prasangam" data-ta="பிரசன்னம்">Prasangam</h3>
+                    <ul class="service-details">
+                        <li data-en="Instant Answers" data-ta="உடனடி பதில்கள்">Instant Answers</li>
+                        <li data-en="No Horoscope Needed" data-ta="ஜாதகம் தேவையில்லை">No Horoscope Needed</li>
+                        <li data-en="Divine Guidance" data-ta="தெய்வீக வழிகாட்டுதல்">Divine Guidance</li>
+                    </ul>
+                </div>
+                <!-- Service 7 -->
+                <div class="service-card reveal reveal-delay-3">
+                    <div class="icon">🛡️</div>
+                    <h3 data-en="Parikarangal" data-ta="பரிகாரங்கள்">Parikarangal</h3>
+                    <ul class="service-details">
+                        <li data-en="Dosha Remedies" data-ta="தோஷ பரிகாரங்கள்">Dosha Remedies</li>
+                        <li data-en="Temple Visits" data-ta="கோவில் வழிபாடு">Temple Visits</li>
+                        <li data-en="Home Rituals" data-ta="வீட்டு பரிகாரங்கள்">Home Rituals</li>
+                    </ul>
+                </div>
+                <!-- Service 8 -->
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="icon">🦅</div>
+                    <h3 data-en="Panchapatchi" data-ta="பஞ்சபட்சி">Panchapatchi</h3>
+                    <ul class="service-details">
+                        <li data-en="Five Birds Science" data-ta="பஞ்சபட்சி சாஸ்திரம்">Five Birds Science</li>
+                        <li data-en="Good Time Selection" data-ta="நல்ல நேரம் தேர்வு">Good Time Selection</li>
+                        <li data-en="Personal Power Times" data-ta="வெற்றி நேரம்">Personal Power Times</li>
+                    </ul>
+                </div>
+                <!-- Service 9 -->
+                <div class="service-card reveal reveal-delay-3">
+                    <div class="icon">🏠</div>
+                    <h3 data-en="Vaashthu" data-ta="வாஸ்து">Vaashthu</h3>
+                    <ul class="service-details">
+                        <li data-en="Home Plan Analysis" data-ta="வீட்டு வரைபட ஆய்வு">Home Plan Analysis</li>
+                        <li data-en="Correction Remedies" data-ta="திருத்தங்கள்">Correction Remedies</li>
+                        <li data-en="New Construction Tips" data-ta="புது கட்டிட குறிப்புகள்">New Construction Tips</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title reveal" data-en="Contact Information" data-ta="தொடர்பு விவரங்கள்">Contact
+                Information</h2>
+            <div class="contact-details-grid">
+                <div class="contact-item reveal reveal-delay-1">
+                    <div class="contact-icon-box"><i class="fas fa-mobile-alt"></i></div>
+                    <h4 data-en="Mobile" data-ta="கைபேசி">Mobile</h4>
+                    <p>9962737319</p>
+                </div>
+                <div class="contact-item reveal reveal-delay-2">
+                    <div class="contact-icon-box"><i class="fab fa-whatsapp"></i></div>
+                    <h4 data-en="WhatsApp" data-ta="வாட்ஸ்அப்">WhatsApp</h4>
+                    <p>9962737319</p>
+                </div>
+                <div class="contact-item reveal reveal-delay-3">
+                    <div class="contact-icon-box"><i class="fas fa-envelope"></i></div>
+                    <h4 data-en="Email" data-ta="மின்னஞ்சல்">Email</h4>
+                    <p>sanmukanathar@example.com</p> <!-- Placeholder, user didn't provide -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Sanmukanathar Astrology Research Centre. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Fixed Buttons -->
+    <div class="fixed-buttons">
+        <a href="tel:9962737319" class="fixed-btn call-btn">
+            <i class="fas fa-phone-alt"></i> <span data-en="Call" data-ta="அழைக்க">Call</span>
+        </a>
+        <a href="https://wa.me/919962737319" class="fixed-btn whatsapp-btn">
+            <i class="fab fa-whatsapp"></i> <span data-en="WhatsApp" data-ta="வாட்ஸ்அப்">WhatsApp</span>
+        </a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
